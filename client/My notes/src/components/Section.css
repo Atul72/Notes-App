@@ -1,0 +1,35 @@
+.section {
+  color: black;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/934011/pexels-photo-934011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* position: absolute; */
+  /* position: relative; */
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-heading {
+  color: black;
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+.btn {
+  text-align: center;
+  padding: 20px;
+}
+
+.button {
+  color: black;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}

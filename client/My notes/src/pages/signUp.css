@@ -1,0 +1,77 @@
+.login-page {
+  color: black;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner {
+  position: absolute;
+  left: 39%;
+  top: 15%;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.button {
+  color: black;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.main {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: black;
+  font-weight: 600;
+}
+
+input {
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+input[type="email"] {
+  margin-bottom: 1.2em;
+}
+input[type="name"] {
+  margin-bottom: 1.2em;
+}
+input[type="password"] {
+  margin-bottom: 1.5em;
+}
+
+.fpass {
+  color: blue;
+  font-size: smaller;
+  text-decoration: underline;
+  margin-left: 3em;
+  cursor: pointer;
+}
