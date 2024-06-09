@@ -1,5 +1,4 @@
-![Fast Food Chain - Google Chrome 09-06-2024 11_41_38](https://github.com/Atul72/Notes-App/assets/103880470/b14c2a89-4af6-4c0e-9029-a6f28b3dad7f)## Introduction to the Notes App ##
-
+# Notes App 
 - Notes App allows us to create notes and save them. It uses MongoDB as database and express.js in backend.
 - React use in frontend.
 - Use the react-hook-form for form management.
