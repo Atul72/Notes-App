@@ -1,10 +1,10 @@
 ## Introduction to the Notes App ##
 
-Notes App allows us to create notes and save them. It uses MongoDB as database and express.js in backend.
-React use in frontend.
-Use the react-hook-form for form management.
-Facility of reset your passoword in case of forgotten.
-Use Nodemailer and gmail as service to manage emailsa and belive me it works efficiently.
+- Notes App allows us to create notes and save them. It uses MongoDB as database and express.js in backend.
+- React use in frontend.
+- Use the react-hook-form for form management.
+- Facility of reset your passoword in case of forgotten.
+- Use Nodemailer and gmail as service to manage emailsa and belive me it works efficiently.
 
 ## How to steup in your local computer ##
 
