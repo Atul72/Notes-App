@@ -46,13 +46,13 @@
      ![Fast Food Chain - Google Chrome 09-06-2024 11_45_42](https://github.com/Atul72/Notes-App/assets/103880470/aab41f03-e2cb-49d4-9b25-85def94f724d)
 
    - Showing the email with reset passwor link
-     ![Fast Food Chain - Google Chrome 09-06-2024 11_45_42](https://github.com/Atul72/Notes-App/assets/103880470/7ba963ca-766b-45f7-8de1-5e5bd1fa6fba)
+     ![Fast Food Chain - Google Chrome 09-06-2024 11_46_44](https://github.com/Atul72/Notes-App/assets/103880470/f4f58c38-cbfd-497b-843d-dba0aa13f785)
 
    - Reset Password Page
-     ![Fast Food Chain - Google Chrome 09-06-2024 11_45_42](https://github.com/Atul72/Notes-App/assets/103880470/2d8e860d-ee7e-4eca-9e90-f158eb91bfd5)
+    ![Fast Food Chain - Google Chrome 09-06-2024 11_47_15](https://github.com/Atul72/Notes-App/assets/103880470/a37cc7e4-2350-47d3-94fb-74fb538eeaab)
 
    - API's for App
-     ![Fast Food Chain - Google Chrome 09-06-2024 11_45_42](https://github.com/Atul72/Notes-App/assets/103880470/5c580c87-91e5-42a5-8271-bf399b572998)
+    ![Create note - My Workspace 09-06-2024 13_07_17](https://github.com/Atul72/Notes-App/assets/103880470/0583cf61-5fdd-4175-8eb8-204746326276)
   
   
 
