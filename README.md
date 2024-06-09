@@ -9,19 +9,19 @@
 ## How to steup in your local computer ##
 
 1. Clone the entire project.
-use git clone URL
-or downlaod zip.
+- use git clone URL
+- or downlaod zip.
 
 2. For client side
-   cd client
-   cd "my notes"
-   npm i
-   npm run dev
+   - cd client
+   - cd "my notes"
+   - npm i
+   - npm run dev
 
 3. For server side(in new terminal)  its like one terminal for client side and one for server
-   cd server
-   npm i
-   npm start
+   - cd server
+   - npm i
+   - npm start
 
    Your project will run efficiently
 
