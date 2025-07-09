@@ -23,6 +23,9 @@ const corsOptions = {
 
 app.use(cors(corsOptions)); // Use this after the variable declaration
 
+app.get("/", (req, res) => {
+  res.send("API is running...");
+});
 app.use("/api/v1/users", userRouter);
 app.use("/api/v1/notes", notesRoutes);
 app.use("/api/v1/email", sendResetPasswordEmail);
