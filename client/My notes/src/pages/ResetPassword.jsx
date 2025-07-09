@@ -12,7 +12,7 @@ function ResetPassword() {
   async function onSubmit(d) {
     if (!d.password && !d.passwordConfirm) return;
     const res = await axios.post(
-      `http://127.0.0.1:7500/api/v1/users/resetPassword/${token}`,
+      `https://notes-app-pvrs.onrender.com/api/v1/users/resetPassword/${token}`,
       {
         password: d.password,
         passwordConfirm: d.passwordConfirm,

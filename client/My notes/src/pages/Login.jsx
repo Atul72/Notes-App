@@ -21,7 +21,7 @@ function Login() {
     };
 
     const res = await axios.post(
-      "http://127.0.0.1:7500/api/v1/users/login",
+      `https://notes-app-pvrs.onrender.com/api/v1/users/login`,
       user
     );
     console.log(res);

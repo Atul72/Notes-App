@@ -6,6 +6,9 @@ const { promisify } = require("util");
 const sendEmail = require("../utils/email");
 const crypto = require("crypto");
 
+// This place also i have to add this "https://notes-app-pvrs.onrender.com/" because i have to send the link to
+// email to reset password
+
 const signToken = (id) => {
   const token = jwt.sign({ id: id }, process.env.JWT_SECRET, {
     expiresIn: process.env.JWT_EXPIRES_IN,
@@ -131,7 +134,7 @@ exports.sendResetPasswordEmail = catchAsync(async (req, res, next) => {
   // const resetUrl = `${req.protocol}://${req.get(
   //   "host"
   // )}/api/v1/users/resetPassword/${resetToken}`;
-  const resetUrl = `http://localhost:5173/reset/${resetToken}`;
+  const resetUrl = `https://notes-app-pvrs.onrender.com/reset/${resetToken}`;
 
   const message = `Your password reset URL is ${resetUrl}. if this is not you kindly ignore this.`;
 

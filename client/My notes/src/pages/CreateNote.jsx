@@ -14,14 +14,14 @@ function CreateNote() {
 
   useEffect(function () {
     const userName = async () => {
-      const res = await axios.get("http://127.0.0.1:7500/api/v1/users/me", {
+      const res = await axios.get(`https://notes-app-pvrs.onrender.com/api/v1/users/me`, {
         headers: { Authorization: `Bearer ${cookies.access_token}` },
       });
       setUserName(res.data.user.name);
     };
 
     userName();
-  }, []);
+  }, [cookies.access_token]);
 
   const onSubmit = async (d) => {
     console.log(d);
@@ -33,7 +33,7 @@ function CreateNote() {
     };
 
     const res = await axios.post(
-      "http://127.0.0.1:7500/api/v1/notes",
+      `https://notes-app-pvrs.onrender.com/api/v1/notes`,
       newNote,
       { headers: { Authorization: `Bearer ${cookies.access_token}` } }
     );

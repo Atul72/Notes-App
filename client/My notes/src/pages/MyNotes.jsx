@@ -13,7 +13,7 @@ function MyNotes() {
       try {
         if (!userId) return;
         const res = await axios.get(
-          `http://127.0.0.1:7500/api/v1/users/${userId}/notes`,
+          `https://notes-app-pvrs.onrender.com/api/v1/users/${userId}/notes`,
           {
             headers: { Authorization: `Bearer ${cookie.access_token}` },
           }
@@ -25,7 +25,7 @@ function MyNotes() {
       }
     };
     userNotes();
-  }, []);
+  }, [cookie.access_token, userId]);
 
   if (notes.length > 0) {
     return (

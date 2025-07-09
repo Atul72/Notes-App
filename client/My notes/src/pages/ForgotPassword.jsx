@@ -9,7 +9,7 @@ function ForgotPassword() {
 
   async function onSubmit(data) {
     if (!data.to) return;
-    const res = await axios.post("http://127.0.0.1:7500/api/v1/email", {
+    const res = await axios.post(`https://notes-app-pvrs.onrender.com/api/v1/email`, {
       userEmail: data.to,
     });
     console.log(res);
